@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!--Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+
+                <!--Input search -->
+                <div class="header__inp-row">
+
+                    <input class="header__inp-search" type="text" id="city">
+                    <label for="city" class="header__label-search">
+                        Enter Country or City
+                    </label>
+
+                </div>
+
+                <!-- Selectors Country and City -->
+                <div class="header__selectors-row">
+
+                    <div>
+
+                        <label>
+                            Select Country
+                            <select class="header__selector-country">
+                                <option disabled selected value="">--</option>
+                            </select>
+                        </label>
+
+
+                    </div>
+
+                    <div>
+
+                        <label>
+                            Select City
+                            <select class="header__selector-city">
+                                <option  disabled selected value="">--</option>
+                            </select>
+                        </label>
+
+
+                    </div>
+
+                </div>
+
+                <!-- rend cart -->
+                <div class="content"></div>
+
+            </div>
+        </header>
+    </div>
+
+    <!-- main.js -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
